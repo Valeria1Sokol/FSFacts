@@ -1082,7 +1082,7 @@
         height: auto;
         background-color: #edffef;
         margin-top: -5vw;
-        padding-bottom: 29vw;
+        padding-bottom: 31vw;
     }
 
     .section1_head {
@@ -1254,6 +1254,7 @@
         margin-top: 1vw;
         margin-left: 9vw;
         width: 79vw;
+        margin-bottom: 7vw;
     }
 
     .section2 {
@@ -1261,7 +1262,7 @@
         height: auto;
         margin-top: -5vw;
         background-color: #dceff0;
-        padding-bottom: 29vw;
+        padding-bottom: 31vw;
     }
 
     .section2_head {
@@ -1347,26 +1348,27 @@
         margin-top: 1vw;
         margin-left: 9vw;
         width: 79vw;
+        margin-bottom: 7vw;
     }
     @media all and (max-width:375px)
     {
         .chemistry-image img {
   
-    top: 38vw!important;
+    top: 42vw!important;
 }
     }
       @media all and (max-width:360px)
     {
         .chemistry-image img {
   
-    top: 37vw!important;
+    top: 41vw!important;
 }
     }
        @media all and (max-width:320px)
     {
         .chemistry-image img {
   
-    top: 41vw!important;
+    top: 45vw!important;
 }
     }
 
@@ -1375,7 +1377,7 @@
         height: auto;
         margin-top: -5vw;
         background-color: #edffef;
-        padding-bottom: 26vw;
+        padding-bottom: 31vw;
        
     }
     .sec3Mob

@@ -1079,7 +1079,7 @@
         margin-top: -7vw;
         padding-top: 7vw;
         margin-bottom: 0vw;
-        padding-bottom: 7vw;
+        padding-bottom: 9vw;
     }
 
     /* .chemistry-image {
@@ -1096,7 +1096,7 @@
 
     .flask_shadow2 {
         width: 19vw !important;
-        top: 39vw !important;
+        top: 43vw !important;
         left: 68.7vw !important;
         z-index: 0 !important;
     }
@@ -1110,7 +1110,7 @@
     .section-2-p {
         font-size: 4vw;
         width: 87vw;
-        margin-bottom: 0vw;
+        margin-bottom: 4vw;
         margin-left: 8vw;
         margin-top: 11vw;
     }
