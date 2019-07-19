@@ -1348,6 +1348,27 @@
         margin-left: 9vw;
         width: 79vw;
     }
+    @media all and (max-width:375px)
+    {
+        .chemistry-image img {
+  
+    top: 38vw!important;
+}
+    }
+      @media all and (max-width:375px)
+    {
+        .chemistry-image img {
+  
+    top: 37vw!important;
+}
+    }
+       @media all and (max-width:375px)
+    {
+        .chemistry-image img {
+  
+    top: 41vw!important;
+}
+    }
 
     .section3 {
         width: 100vw;
@@ -1389,6 +1410,9 @@
         align-items: center;
         text-align: center;
     }
+    .section3_box2 img{
+   width: 27vw;
+}
 
     .section3_illustration {
         width: 59vw;
