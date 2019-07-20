@@ -332,7 +332,7 @@
     .pCircleBox {
         width: 8.5vw;
         height: 8.5vw;
-        background-color: rgba(254, 235, 237);
+        background-color: rgba(254, 235, 237,1);
         border-radius: 50%;
         display: flex;
         justify-content: center;
@@ -723,7 +723,7 @@
     .sec4Top div {
         width: 8.3vw;
         height: 8.3vw;
-        background-color: rgba(153, 217, 234);
+        background-color: rgba(153, 217, 234,1);
         border-radius: 50%;
         display: flex;
         justify-content: center;
