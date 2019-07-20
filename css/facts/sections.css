@@ -17,41 +17,42 @@
     font-family: "Open Sans light";
     src: url("fonts/OpenSans-Light.ttf");
 }
-  @-webkit-keyframes fade {
-        0% {
-            opacity: 0;
-        }
 
-        40% {
-            opacity: 1;
-        }
-
-        70% {
-            opacity: 1;
-        }
-
-        100% {
-            opacity: 0;
-        }
+@-webkit-keyframes fade {
+    0% {
+        opacity: 0;
     }
 
-    @keyframes fade {
-        0% {
-            opacity: 0;
-        }
-
-        40% {
-            opacity: 1;
-        }
-
-        70% {
-            opacity: 1;
-        }
-
-        100% {
-            opacity: 0;
-        }
+    40% {
+        opacity: 1;
     }
+
+    70% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
 
 @media screen and (min-width: 769px) {
     .section1 {
@@ -332,7 +333,7 @@
     .pCircleBox {
         width: 8.5vw;
         height: 8.5vw;
-        background-color: rgba(254, 235, 237,1);
+        background-color: rgba(254, 235, 237, 1);
         border-radius: 50%;
         display: flex;
         justify-content: center;
@@ -723,7 +724,7 @@
     .sec4Top div {
         width: 8.3vw;
         height: 8.3vw;
-        background-color: rgba(153, 217, 234,1);
+        background-color: rgba(153, 217, 234, 1);
         border-radius: 50%;
         display: flex;
         justify-content: center;
@@ -1084,7 +1085,7 @@
         position: relative;
     }
 
-  
+
 
     .funnel1 {
         position: absolute;
@@ -1760,7 +1761,7 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-         animation: 5s ease 0s fade;
+        animation: 5s ease 0s fade;
 
     }
 
@@ -1790,7 +1791,7 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-         animation: 5s ease 0s fade;
+        animation: 5s ease 0s fade;
     }
 
     .funel2 p {
@@ -1818,7 +1819,7 @@
         background-size: cover;
         justify-content: center;
         align-items: flex-start;
-         animation: 5s ease 0s fade;
+        animation: 5s ease 0s fade;
 
     }
 
@@ -1851,4 +1852,30 @@
         width: 75vw;
         float: right;
     }
+        .section1_box3 .semen2 {
+        margin: 3.7vw 0px 4vw;
+    }
+    .section1_box3 .facesemen2 {
+    margin: 3.4vw 0 3.2vw -0.4vw;
+}
+}
+
+@media all and (max-width:1280px) {
+    .section4_box3 {
+
+        padding: 0.75vw 0 7.7vw;
+    }
+
+    .tag2 {
+
+        margin: 1.5vw 0 2vw;
+    }
+
+    .section5_box3 .facesemen2 {
+        margin: 1.5vw 0 1.7vw;
+    }
+}
+
+@media all and (max-width:414px) {
+
 }

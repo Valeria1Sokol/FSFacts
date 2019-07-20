@@ -54,7 +54,7 @@
     .elements {
         height: 320px;
         width: 320px;
-        bottom: -50px;  
+        bottom: -50px;
     }
 
     .facial-sheet-on-board-img {
@@ -68,7 +68,7 @@
     .elements {
         height: 180px;
         width: 180px;
-        bottom: -20px;  
+        bottom: -20px;
     }
 
     .facial-sheet-on-board-img {
@@ -76,4 +76,44 @@
         width: 90px;
         height: 120px;
     }
+}
+
+@media screen and (min-width: 800px) {
+    .section-facts-2 .chemistry-facts .details-chemistry-facts .section-2-title img {
+        right: -9vw !important;
+    }
+
+    .tag2 {
+        margin: 0vw 0 2vw;
+    }
+
+}
+
+@media screen and (min-width: 1366px) {
+    .semen2 {
+        margin: 1.5vw 0 2.8vw;
+
+    }
+
+    .tag2:nth-of-type(2n+2) {
+        margin-top: 1.6vw;
+    }
+
+    .section5_box3 .no {
+        margin: 0 !important;
+    }
+
+    .section5_box3 .facesemen2 {
+        margin: 3.5vw 0 1vw !important;
+    }
+
+}
+@media all and (max-width:375px)
+{
+    .section1_box3 p {
+    font-size: 2.1vw!important;
+}
+    .funel1 p, .funel2 p, .funel3 p {
+    font-size: 1.8vw!important;
+}
 }
