@@ -299,10 +299,11 @@
 }
 
 .section-facts-2 .chemistry-facts .details-chemistry-facts .section-2-title img {
+   right: -5vw;
+    width: 5.7vw;
+    top: -1vw;
     position: absolute;
-    right: -5vw;
-    width: 4.2vw;
-    top: 0vw;
+
 }
 
 .section-facts-2 .chemistry-facts .details-chemistry-facts .span {

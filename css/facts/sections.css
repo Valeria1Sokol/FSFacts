@@ -24,23 +24,23 @@
         height: auto;
         background-color: #eefff0;
         margin-top: -3vw;
-        padding-bottom: 7vw;
+        padding-bottom: 18vw;
     }
 
     .section1_top1 {
-        width: 100vw;
         text-align: center;
         font-family: "Open Sans semi-bold";
         font-size: 2.2vw;
-        position: relative;
         z-index: 5;
-        margin-top: -9vw;
     }
 
     .head_wraper {
         width: 100vw;
         display: flex;
+        flex-direction: column;
+        align-items: center;
         justify-content: center;
+        margin-top: -10vw;
     }
 
     .section1_head {
@@ -202,7 +202,7 @@
         height: auto;
         background-color: #dceff0;
         margin-top: -3vw;
-        padding-bottom: 17vw;
+        padding-bottom: 18vw;
     }
 
     .section2_wraper {
@@ -210,25 +210,28 @@
         flex-direction: row;
         justify-content: space-between;
         padding: 0 9.7vw 0 9vw;
+        margin-top: -3vw;
     }
 
     .section1_top2 {
-        width: 100vw;
+        /*        width: 100vw;*/
         text-align: center;
         font-family: "Open Sans semi-bold";
         font-size: 2.2vw;
-        position: relative;
+        /*        position: relative;*/
         z-index: 5;
-        margin-top: 7vw;
+        /*        margin-top: 7vw;*/
     }
 
     .head_wraper2 {
         width: 100vw;
         display: flex;
+        flex-direction: column;
+        align-items: center;
         justify-content: center;
         position: relative;
         z-index: 5;
-        top: -6vw;
+        top: -11vw;
     }
 
     .section2_box1 {
@@ -238,6 +241,7 @@
     .section2_head {
         width: 13.5vw;
         height: 13.5vw;
+        margin-top: -2vw;
 
     }
 
@@ -293,7 +297,7 @@
     .pCircleBox {
         width: 8.5vw;
         height: 8.5vw;
-        background-color: #edfdf3;
+        background-color: rgba(254, 235, 237);
         border-radius: 50%;
         display: flex;
         justify-content: center;
@@ -467,8 +471,7 @@
     }
 
     .section3_top {
-        width: 100vw;
-        text-align: center;
+
         font-family: "Open Sans semi-bold";
         font-size: 2.2vw;
         position: relative;
@@ -480,7 +483,11 @@
     .head_wraper3 {
         width: 100vw;
         display: flex;
+        flex-direction: column;
+        align-items: center;
         justify-content: center;
+        position: relative;
+        top: -2vw;
     }
 
     .section3_head {
@@ -602,8 +609,7 @@
     }
 
     .section4_top {
-        width: 100vw;
-        text-align: center;
+
         font-family: "Open Sans semi-bold";
         font-size: 2.2vw;
         position: relative;
@@ -615,7 +621,11 @@
     .head_wraper4 {
         width: 100vw;
         display: flex;
+        flex-direction: column;
+        align-items: center;
         justify-content: center;
+        position: relative;
+        top: -2vw;
     }
 
     .section4_head {
@@ -678,7 +688,7 @@
     .sec4Top div {
         width: 8.3vw;
         height: 8.3vw;
-        background-color: #edfdf3;
+        background-color: rgba(153, 217, 234);
         border-radius: 50%;
         display: flex;
         justify-content: center;
@@ -741,7 +751,7 @@
     }
 
     .section5_top {
-        width: 100vw;
+
         text-align: center;
         font-family: "Open Sans semi-bold";
         font-size: 2.2vw;
@@ -1039,32 +1049,87 @@
         position: relative;
     }
 
-    .funnel1 {
+     .funnel1 {
         position: absolute;
-        z-index: 5;
-        left: 23vw;
-        top: 6vw;
+        background-image: url(../../img/facts/bubble.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+         z-index: 5;
+         left: 23vw;
+        top: 5vw;
         width: 11vw;
+        height: 15vw;
         display: none;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: center;
+        
     }
+    .funnel1 p
+    {
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.2vw;
+        padding-top: 1.5vw;
+        margin-bottom: 0.3vw;
+    }
+    .funnel1 img
+    {
+        width: 2vw;
+}
 
     .funnel2 {
         position: absolute;
         z-index: 5;
         left: 23vw;
-        top: 6vw;
+        top: 5vw;
         width: 11vw;
+        height:15vw;
         display: none;
+        background-image: url(../../img/facts/bubble.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
     }
+      .funnel2 p
+    {
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.2vw;
+        padding-top: 1.5vw;
+        margin-bottom: 0.3vw;
+    }
+    .funnel2 img
+    {
+        width: 2vw;
+}
 
     .funnel3 {
         position: absolute;
         z-index: 5;
         left: 23vw;
-        top: 6vw;
+        top: 5vw;
         width: 11vw;
+        height:15vw;
         display: none;
+        background-image: url(../../img/facts/bubble.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-content:center;
+        align-items: flex-start;
+        
     }
+        .funnel3 p
+    {
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.2vw;
+        padding-top: 2.8vw;
+
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -1089,7 +1154,7 @@
         font-family: "Open Sans bold";
         font-size: 5vw;
         position: relative;
-        text-align: center;
+        /*        text-align: center;*/
         top: -18vw;
     }
 
@@ -1131,66 +1196,87 @@
         left: 28.5vw;
         margin-top: 6.6vw;
     }
-     .sec1ImgBox .pBox .Na {
+
+    .sec1ImgBox .pBox .Na {
         left: 18vw;
-    margin-top: 9vw;
+        margin-top: 9vw;
     }
-     .sec1ImgBox .pBox .K {
+
+    .sec1ImgBox .pBox .K {
         left: 13.8vw;
-    margin-top: 19vw;
+        margin-top: 19vw;
     }
-     .sec1ImgBox .pBox .Mg {
+
+    .sec1ImgBox .pBox .Mg {
         left: 23.7vw;
         margin-top: 18.5vw;
     }
-     .sec1ImgBox .pBox .Ca{
-            left: 35vw;
-    margin-top: 21.6vw;
+
+    .sec1ImgBox .pBox .Ca {
+        left: 35vw;
+        margin-top: 21.6vw;
     }
-     .sec1ImgBox .pBox .Zn{
-            left: 26.8vw;
-    margin-top: 29.6vw;
+
+    .sec1ImgBox .pBox .Zn {
+        left: 26.8vw;
+        margin-top: 29.6vw;
     }
 
     .sec1ImgBox .illustration1 {
         width: 39vw;
         height: 40vw;
     }
+
     .section1_box3 {
-    width: 20vw;
+        width: 20vw;
         height: 43vw;
-    background-image: url(../../img/facts/tagK.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+        background-image: url(../../img/facts/tagK.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         margin: 3vw 0 -4vw;
 
-}
-    .section1_box3 .tag2
-    {
+    }
+
+    .section1_box3 .tag2 {
         width: 5.5vw;
     }
-    .section1_box3 p
-    {
-       font-size: 2.6vw;
+
+    .section1_box3 p {
+        font-size: 2.3vw;
         font-weight: bold;
     }
-    .section1_box3 .semen2
-    {
-        margin: 3vw 0 5vw;
+
+    .section1_box3 .semen2 {
+        margin: 3.7vw 0 5vw;
     }
-    .section1_box3 .facesemen2
-    {
-        margin: 6vw 0 5vw -0.6vw;
+
+    .section1_box3 .facesemen2 {
+        margin: 5.7vw 0 5vw -0.4vw;
     }
 
     .head_icon1 {
         width: 29vw;
         position: relative;
         top: -23vw;
-        left: 36vw;
+    }
+
+    .headSec2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: -4vw;
+    }
+
+    .head_wraper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .img_wraper {
@@ -1198,15 +1284,16 @@
         flex-direction: row;
         justify-content: space-between;
         padding: 0 5vw 0 9vw;
-        
-    margin-top: -21vw;
+
+        margin-top: -21vw;
     }
+
     .section6 .img_wraper {
-    
-        
-    margin-top: 0vw;
+
+
+        margin-top: 0vw;
     }
-    
+
 
     .section1_box1 {
         width: 70vw;
@@ -1277,41 +1364,46 @@
         width: 29vw;
         position: relative;
         top: -24vw;
-        left: 37vw;
     }
+
     .section2_box2 {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .circleTextBox {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-    .illustration2
-    {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .illustration2 {
         width: 27vw;
     }
+
     .pCircleBox {
-    width: 17.5vw;
-    height: 17.5vw;
-    background-color: #edfdf3;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 1vw 0 0;
-}
-    .citric_acid, .sodium_citrate, .potassium_citrate {
-    font-family: "Open Sans semi-bold";
-    font-size: 2.8vw;
-    text-align: center;
-    line-height: 1.2;
-}
+        width: 17.5vw;
+        height: 17.5vw;
+        background-color: rgba(254, 235, 237);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 1vw 0 0;
+    }
+
+    .citric_acid,
+    .sodium_citrate,
+    .potassium_citrate {
+        font-family: "Open Sans semi-bold";
+        font-size: 2.8vw;
+        text-align: center;
+        line-height: 1.2;
+    }
 
     .section2_illustration {
         width: 60vw;
@@ -1350,26 +1442,26 @@
         width: 79vw;
         margin-bottom: 7vw;
     }
-    @media all and (max-width:375px)
-    {
+
+    @media all and (max-width:375px) {
         .chemistry-image img {
-  
-    top: 42vw!important;
-}
+
+            top: 42vw !important;
+        }
     }
-      @media all and (max-width:360px)
-    {
+
+    @media all and (max-width:360px) {
         .chemistry-image img {
-  
-    top: 41vw!important;
-}
+
+            top: 41vw !important;
+        }
     }
-       @media all and (max-width:320px)
-    {
+
+    @media all and (max-width:320px) {
         .chemistry-image img {
-  
-    top: 45vw!important;
-}
+
+            top: 45vw !important;
+        }
     }
 
     .section3 {
@@ -1378,14 +1470,14 @@
         margin-top: -5vw;
         background-color: #edffef;
         padding-bottom: 31vw;
-       
+
     }
-    .sec3Mob
-    {
-         margin-top: -25vw;
+
+    .sec3Mob {
+        margin-top: -25vw;
     }
-     .sec3Mob .section3BoxCircle p
-    {
+
+    .sec3Mob .section3BoxCircle p {
         font-size: 2.8vw;
         font-weight: bold;
     }
@@ -1396,25 +1488,25 @@
         position: relative;
         text-align: center;
         top: -19vw;
-       
+
     }
 
     .head_icon3 {
         width: 29vw;
         position: relative;
         top: -25vw;
-        left: 37vw;
     }
-    .section3_box2
-    {
+
+    .section3_box2 {
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
-    .section3_box2 img{
-   width: 27vw;
-}
+
+    .section3_box2 img {
+        width: 27vw;
+    }
 
     .section3_illustration {
         width: 59vw;
@@ -1437,49 +1529,57 @@
         margin-left: 8vw;
     }
 
-  .section4_box2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1vw 0 0 2.2vw;
-}
+    .section4_box2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1vw 0 0 2.2vw;
+    }
+
     .illustration4 {
-    width: 26vw;
-    margin-top: -4.6vw;
-    margin-left: 33vw;
-}
+        width: 26vw;
+        margin-top: -4.6vw;
+        margin-left: 33vw;
+    }
+
     .sec4Top div {
-    width: 18.3vw;
-    height: 18.3vw;
-    background-color: #edfdf3;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+        width: 18.3vw;
+        height: 18.3vw;
+        background-color: rgba(153, 217, 234);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .sec4PBox {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: -3vw 22vw 4vw 0;
-}
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: -3vw 22vw 4vw 0;
+    }
+
     .sec4Top p {
-    font-family: "Open Sans semi-bold";
-    font-size: 2.8vw;
+        font-family: "Open Sans semi-bold";
+        font-size: 2.8vw;
         font-weight: bold;
-}
+        text-align: center;
+    }
+
     .sec4Top {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
     .section4 .img_wraper {
-    
-    margin-top: -15vw;
-}
+
+        margin-top: -15vw;
+    }
+
     .section5 {
         width: 100vw;
         height: auto;
@@ -1494,31 +1594,32 @@
         margin-top: -18vw;
     }
 
-  .section5_box2
-    {
+    .section5_box2 {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
- .section5_box2 .sec5PBox p
-    {
+
+    .section5_box2 .sec5PBox p {
         font-size: 2.8vw;
         font-weight: bolder;
     }
-    .section5_box2 .sec5PBox img
-    {
+
+    .section5_box2 .sec5PBox img {
         width: 27vw;
     }
+
     .section5 .section1_box3 {
-   
-    margin: 6vw 0 -4vw;
-}
-    .sec5PBox:first-of-type
-    {
+
+        margin: 6vw 0 -4vw;
+    }
+
+    .sec5PBox:first-of-type {
         margin: 0 2vw 0 0;
     }
+
     .star {
         width: 7vw;
         margin-left: -1vw;
@@ -1603,12 +1704,31 @@
 
     .funel1 {
         position: absolute;
-        z-index: 5;
+        background-image: url(../../img/facts/bubble.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+         z-index: 5;
         top: 41vw;
         left: 55vw;
         width: 21vw;
+        height: 30vw;
         display: none;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: center;
+        
     }
+    .funel1 p
+    {
+        text-align: center;
+        font-weight: bold;
+        font-size: 2vw;
+        padding-top: 2vw;
+    }
+    .funel1 img
+    {
+        width: 4vw;
+}
 
     .funel2 {
         position: absolute;
@@ -1616,8 +1736,26 @@
         top: 41vw;
         left: 55vw;
         width: 21vw;
+        height:30vw;
         display: none;
+        background-image: url(../../img/facts/bubble.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
     }
+      .funel2 p
+    {
+        text-align: center;
+        font-weight: bold;
+        font-size: 2vw;
+        padding-top: 2vw;
+    }
+    .funel2 img
+    {
+        width: 4vw;
+}
 
     .funel3 {
         position: absolute;
@@ -1625,7 +1763,22 @@
         top: 41vw;
         left: 55vw;
         width: 21vw;
+        height:30vw;
         display: none;
+        background-image: url(../../img/facts/bubble.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-content:center;
+        align-items: flex-start;
+        
+    }
+        .funel3 p
+    {
+        text-align: center;
+        font-weight: bold;
+        font-size: 2vw;
+        padding-top: 6vw;
+
     }
 
     .future_text1 {
@@ -1645,7 +1798,6 @@
         font-family: "Open Sans";
         font-size: 4vw;
         margin-top: 0vw;
-        margin-left: 9vw;
         width: 75vw;
         float: right;
     }
