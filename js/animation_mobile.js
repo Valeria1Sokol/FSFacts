@@ -40,7 +40,7 @@ function autoToggler1() {
 }
 
 function getInterval1() {
-    return setInterval(autoToggler1, 2500);//time in ms
+    return setInterval(autoToggler1, 5000);//time in ms
 }
 
 let dropInterval1 = getInterval1();

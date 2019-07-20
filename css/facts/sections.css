@@ -17,6 +17,41 @@
     font-family: "Open Sans light";
     src: url("fonts/OpenSans-Light.ttf");
 }
+  @-webkit-keyframes fade {
+        0% {
+            opacity: 0;
+        }
+
+        40% {
+            opacity: 1;
+        }
+
+        70% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @keyframes fade {
+        0% {
+            opacity: 0;
+        }
+
+        40% {
+            opacity: 1;
+        }
+
+        70% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
 
 @media screen and (min-width: 769px) {
     .section1 {
@@ -1049,34 +1084,38 @@
         position: relative;
     }
 
-     .funnel1 {
+  
+
+    .funnel1 {
         position: absolute;
         background-image: url(../../img/facts/bubble.png);
         background-repeat: no-repeat;
         background-size: cover;
-         z-index: 5;
-         left: 23vw;
+        z-index: 5;
+        left: 23vw;
         top: 5vw;
         width: 11vw;
         height: 15vw;
         display: none;
         flex-direction: column;
-        justify-content:flex-start;
+        justify-content: flex-start;
         align-items: center;
-        
+        animation: 5s ease 0s fade;
+
     }
-    .funnel1 p
-    {
+
+    .funnel1 p {
         text-align: center;
         font-weight: bold;
         font-size: 1.2vw;
         padding-top: 1.5vw;
         margin-bottom: 0.3vw;
+        font-family: "Open Sans semi-bold";
     }
-    .funnel1 img
-    {
+
+    .funnel1 img {
         width: 2vw;
-}
+    }
 
     .funnel2 {
         position: absolute;
@@ -1084,7 +1123,7 @@
         left: 23vw;
         top: 5vw;
         width: 11vw;
-        height:15vw;
+        height: 15vw;
         display: none;
         background-image: url(../../img/facts/bubble.png);
         background-repeat: no-repeat;
@@ -1092,19 +1131,21 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
+        animation: 5s ease 0s fade;
     }
-      .funnel2 p
-    {
+
+    .funnel2 p {
         text-align: center;
         font-weight: bold;
         font-size: 1.2vw;
         padding-top: 1.5vw;
         margin-bottom: 0.3vw;
+        font-family: "Open Sans semi-bold";
     }
-    .funnel2 img
-    {
+
+    .funnel2 img {
         width: 2vw;
-}
+    }
 
     .funnel3 {
         position: absolute;
@@ -1112,21 +1153,23 @@
         left: 23vw;
         top: 5vw;
         width: 11vw;
-        height:15vw;
+        height: 15vw;
         display: none;
         background-image: url(../../img/facts/bubble.png);
         background-repeat: no-repeat;
         background-size: cover;
-        justify-content:center;
+        justify-content: center;
         align-items: flex-start;
-        
+        animation: 5s ease 0s fade;
+
     }
-        .funnel3 p
-    {
+
+    .funnel3 p {
         text-align: center;
         font-weight: bold;
         font-size: 1.2vw;
         padding-top: 2.8vw;
+        font-family: "Open Sans semi-bold";
 
     }
 
@@ -1247,6 +1290,7 @@
     .section1_box3 p {
         font-size: 2.3vw;
         font-weight: bold;
+        font-family: "Open Sans semi-bold";
     }
 
     .section1_box3 .semen2 {
@@ -1707,28 +1751,30 @@
         background-image: url(../../img/facts/bubble.png);
         background-repeat: no-repeat;
         background-size: cover;
-         z-index: 5;
+        z-index: 5;
         top: 41vw;
         left: 55vw;
         width: 21vw;
         height: 30vw;
         display: none;
         flex-direction: column;
-        justify-content:flex-start;
+        justify-content: flex-start;
         align-items: center;
-        
+         animation: 5s ease 0s fade;
+
     }
-    .funel1 p
-    {
+
+    .funel1 p {
         text-align: center;
         font-weight: bold;
         font-size: 2vw;
         padding-top: 2vw;
+        font-family: "Open Sans semi-bold";
     }
-    .funel1 img
-    {
+
+    .funel1 img {
         width: 4vw;
-}
+    }
 
     .funel2 {
         position: absolute;
@@ -1736,7 +1782,7 @@
         top: 41vw;
         left: 55vw;
         width: 21vw;
-        height:30vw;
+        height: 30vw;
         display: none;
         background-image: url(../../img/facts/bubble.png);
         background-repeat: no-repeat;
@@ -1744,18 +1790,20 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
+         animation: 5s ease 0s fade;
     }
-      .funel2 p
-    {
+
+    .funel2 p {
         text-align: center;
         font-weight: bold;
         font-size: 2vw;
         padding-top: 2vw;
+        font-family: "Open Sans semi-bold";
     }
-    .funel2 img
-    {
+
+    .funel2 img {
         width: 4vw;
-}
+    }
 
     .funel3 {
         position: absolute;
@@ -1763,21 +1811,23 @@
         top: 41vw;
         left: 55vw;
         width: 21vw;
-        height:30vw;
+        height: 30vw;
         display: none;
         background-image: url(../../img/facts/bubble.png);
         background-repeat: no-repeat;
         background-size: cover;
-        justify-content:center;
+        justify-content: center;
         align-items: flex-start;
-        
+         animation: 5s ease 0s fade;
+
     }
-        .funel3 p
-    {
+
+    .funel3 p {
         text-align: center;
         font-weight: bold;
         font-size: 2vw;
-        padding-top: 6vw;
+        padding-top: 5.5vw;
+        font-family: "Open Sans semi-bold";
 
     }
 
