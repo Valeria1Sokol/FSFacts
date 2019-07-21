@@ -108,12 +108,37 @@
     }
 
 }
+@media all and (max-width:425px)
+{
+    
+ .section1_box3 .facesemen2 {
+    margin: 2.6vw 0 3.4vw -0.4vw!important;
+}
+      .funel3 p {
+      
+letter-spacing: -1px!important;
+    }
+
+}
 @media all and (max-width:375px)
 {
     .section1_box3 p {
-    font-size: 2.1vw!important;
+    font-size: 2.4vw!important;
 }
     .funel1 p, .funel2 p, .funel3 p {
     font-size: 1.8vw!important;
 }
+    .section1_box3 .facesemen2 {
+    margin: 3vw 0 3.4vw -0.4vw!important;
+}
+      .funel2 p
+    {
+        padding-top: 3.2vw!important;
+    }
+       .funel1 p
+    {
+        padding-top: 3.2vw!important;
+    }
+    
+    
 }
