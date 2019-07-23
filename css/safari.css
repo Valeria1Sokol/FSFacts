@@ -76,6 +76,10 @@
         width: 90px;
         height: 120px;
     }
+
+    .sec3Mob .section3BoxCircle p {
+        letter-spacing: -1px;
+    }
 }
 
 @media screen and (min-width: 800px) {
@@ -108,42 +112,63 @@
     }
 
 }
-@media all and (max-width:425px)
-{
-    
- .section1_box3 .facesemen2 {
-    margin: 2.6vw 0 3.4vw -0.4vw!important;
-}
-      .funel3 p {
-      
-letter-spacing: -1px!important;
-    }
 
-}
-@media all and (max-width:375px)
-{
-    .section1_box3 p {
-    font-size: 2.7vw!important;
-}
+@media all and (max-width:425px) {
 
     .section1_box3 .facesemen2 {
-    margin: 2.5vw 0 3.4vw -0.4vw!important;
+        margin: 2.6vw 0 3.4vw -0.4vw !important;
+    }
+
+    .funel3 p {
+
+        letter-spacing: -1px !important;
+    }
+
 }
-      .funel2 p
-    {
-        padding-top: 1.5vw!important;
-        
+
+@media all and (max-width:414px) {
+    .section1_box3 .facesemen2 {
+        margin: 2.95vw 1vw 3.4vw 0 !important;
     }
-       .funel1 p
-    {
-        padding-top: 1.5vw!important;
-       
+}
+
+@media all and (max-width:375px) {
+    .section1_box3 p {
+        font-size: 2.7vw !important;
     }
-    
-    .funel3 p
-    {
-       
+
+    .section1_box3 .facesemen2 {
+        margin: 2.5vw 0 3.4vw -0.4vw !important;
     }
-    
-    
+
+    .funel2 p {
+        padding-top: 1.5vw !important;
+
+    }
+
+    .funel1 p {
+        padding-top: 1.5vw !important;
+
+    }
+
+     .section1_box3 .facesemen2 {
+           margin: 2.95vw 1.1vw 3.4vw 0!important;
+    }
+
+
+}
+@media all and (max-width:320px) {
+
+
+     .section1_box3 .facesemen2 {
+           margin: 2.45vw 0.9vw 3.4vw 0!important;
+    }
+    .logo_footer p {
+   letter-spacing: -1px;
+}
+.label {
+    width: 68vw!important;
+}
+
+
 }

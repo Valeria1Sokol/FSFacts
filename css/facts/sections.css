@@ -333,7 +333,7 @@
     .pCircleBox {
         width: 8.5vw;
         height: 8.5vw;
-        background-color: rgba(254, 235, 237, 1);
+        background-color: rgba(153, 217, 234, 1);
         border-radius: 50%;
         display: flex;
         justify-content: center;
@@ -601,15 +601,18 @@
 
     .glucose {
         font-family: "Open Sans semi-bold";
-        font-size: 1.3vw;
-        margin: 0 0 1em;
+        font-size: 1.4vw;
+        margin: 0 0 0.3em;
+        font-weight: bold;
+        letter-spacing: -1px;
     }
 
     .fructose {
         font-family: "Open Sans semi-bold";
         font-size: 1.4vw;
-        margin: 0 0 1em;
+        margin: 0 0 0.3em;
         font-weight: bold;
+        letter-spacing: -1px;
     }
 
     .section3_box3 {
@@ -852,6 +855,7 @@
     .illustration5 {
         width: 12vw;
 
+        margin: 0.2em 0;
     }
 
     .section5_box2 {
@@ -871,8 +875,11 @@
 
     .brightum_technology {
         font-family: "Open Sans semi-bold";
-        font-size: 1.2vw;
+        font-size: 1.3vw;
         text-align: center;
+        font-weight: bold;
+        letter-spacing: -1px;
+        margin: 0;
     }
 
 
@@ -883,21 +890,29 @@
 
     .dermsome_technology {
         font-family: "Open Sans semi-bold";
-        font-size: 1.2vw;
+        font-size: 1.3vw;
         text-align: center;
+        font-weight: bold;
+        letter-spacing: -1px;
+        margin: 0;
     }
 
     .all-in-one {
         font-family: "Open Sans";
         font-size: 1.2vw;
         text-align: center;
+        line-height: 1.2;
+        margin: 0;
     }
+
 
     .super-skin {
         font-family: "Open Sans";
         font-size: 1.2vw;
         text-align: center;
         width: 10vw;
+        line-height: 1.2;
+        margin: 0;
     }
 
     .section5_box3 {
@@ -1085,13 +1100,21 @@
         position: relative;
     }
 
-
-
-    .funnel1 {
+    .funnelAll {
         position: absolute;
         background-image: url(../../img/facts/bubble.png);
         background-repeat: no-repeat;
         background-size: cover;
+        display: block;
+        z-index: 5;
+        left: 23vw;
+        top: 5vw;
+        width: 11vw;
+        height: 15vw;
+    }
+
+    .funnel1 {
+
         z-index: 5;
         left: 23vw;
         top: 5vw;
@@ -1112,6 +1135,7 @@
         padding-top: 1.5vw;
         margin-bottom: 0.3vw;
         font-family: "Open Sans semi-bold";
+        letter-spacing: -1px;
     }
 
     .funnel1 img {
@@ -1121,14 +1145,12 @@
     .funnel2 {
         position: absolute;
         z-index: 5;
-        left: 23vw;
-        top: 5vw;
+        left: 0vw;
+        top: 0vw;
         width: 11vw;
         height: 15vw;
         display: none;
-        background-image: url(../../img/facts/bubble.png);
-        background-repeat: no-repeat;
-        background-size: cover;
+
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
@@ -1142,6 +1164,7 @@
         padding-top: 1.5vw;
         margin-bottom: 0.3vw;
         font-family: "Open Sans semi-bold";
+        letter-spacing: -1px;
     }
 
     .funnel2 img {
@@ -1151,14 +1174,11 @@
     .funnel3 {
         position: absolute;
         z-index: 5;
-        left: 23vw;
-        top: 5vw;
+        left: 0vw;
+        top: 0vw;
         width: 11vw;
         height: 15vw;
         display: none;
-        background-image: url(../../img/facts/bubble.png);
-        background-repeat: no-repeat;
-        background-size: cover;
         justify-content: center;
         align-items: flex-start;
         animation: 5s ease 0s fade;
@@ -1171,6 +1191,7 @@
         font-size: 1.2vw;
         padding-top: 2.8vw;
         font-family: "Open Sans semi-bold";
+        letter-spacing: -1px;
 
     }
 
@@ -1433,7 +1454,7 @@
     .pCircleBox {
         width: 17.5vw;
         height: 17.5vw;
-        background-color: rgba(254, 235, 237);
+        background-color: rgba(153, 217, 234, 1);
         border-radius: 50%;
         display: flex;
         justify-content: center;
@@ -1525,6 +1546,8 @@
     .sec3Mob .section3BoxCircle p {
         font-size: 2.8vw;
         font-weight: bold;
+        font-family: "Open Sans bold";
+        margin: 0;
     }
 
     .section3_head {
@@ -1649,11 +1672,23 @@
 
     .section5_box2 .sec5PBox p {
         font-size: 2.8vw;
-        font-weight: bolder;
+
+        font-family: "Open Sans";
+        line-height: 1.2;
+        margin: 0;
+
+    }
+
+    .section5_box2 .sec5PBox .brightum_technology,
+    .section5_box2 .sec5PBox .dermsome_technology {
+
+        font-family: "Open Sans bold";
+
     }
 
     .section5_box2 .sec5PBox img {
         width: 27vw;
+        margin: 0.2em 0 0;
     }
 
     .section5 .section1_box3 {
@@ -1747,11 +1782,23 @@
         width: 25vw;
     }
 
-    .funel1 {
+    .funelAll {
         position: absolute;
         background-image: url(../../img/facts/bubble.png);
         background-repeat: no-repeat;
         background-size: cover;
+        z-index: 5;
+        top: 41vw;
+        left: 55vw;
+        width: 21vw;
+        height: 30vw;
+        display: block;
+
+
+    }
+
+    .funel1 {
+
         z-index: 5;
         top: 41vw;
         left: 55vw;
@@ -1781,14 +1828,12 @@
     .funel2 {
         position: absolute;
         z-index: 5;
-        top: 41vw;
-        left: 55vw;
+        top: 0vw;
+        left: 0vw;
         width: 21vw;
         height: 30vw;
         display: none;
-        background-image: url(../../img/facts/bubble.png);
-        background-repeat: no-repeat;
-        background-size: cover;
+
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
@@ -1811,14 +1856,12 @@
     .funel3 {
         position: absolute;
         z-index: 5;
-        top: 41vw;
-        left: 55vw;
+        top: 0vw;
+        left: 0vw;
         width: 21vw;
         height: 30vw;
         display: none;
-        background-image: url(../../img/facts/bubble.png);
-        background-repeat: no-repeat;
-        background-size: cover;
+
         justify-content: center;
         align-items: flex-start;
         animation: 5s ease 0s fade;
@@ -1831,7 +1874,7 @@
         font-size: 2.2vw;
         padding-top: 5.5vw;
         font-family: "Open Sans semi-bold";
-letter-spacing: 0px;
+        letter-spacing: 0px;
     }
 
     .future_text1 {
@@ -1854,17 +1897,19 @@ letter-spacing: 0px;
         width: 75vw;
         float: right;
     }
-        .section1_box3 .semen2 {
-        margin: 3.7vw 0px 4vw;
+
+    .section1_box3 .semen2 {
+        margin: 3.4vw 0.5vw 4vw 0;
     }
+
     .section1_box3 .facesemen2 {
-    margin: 3vw 0 3.4vw -0.4vw;
-}
-    
+        margin: 2.95vw 0 3.4vw -1.1vw;
+    }
+
     .section1_box3 p {
-   letter-spacing: -1px;
+        letter-spacing: -1px;
         font-size: 2.6vw;
-}
+    }
 }
 
 @media all and (max-width:1280px) {
@@ -1885,23 +1930,33 @@ letter-spacing: 0px;
 
 @media all and (max-width:375px) {
     .section1_box3 p {
-   
-    font-size: 3vw;
-}
+
+        font-size: 3vw;
+    }
+
     .section1_box3 .facesemen2 {
-    margin: 2vw 0 3.4vw -0.4vw;
+           margin: 2.55vw 1vw 3.4vw 0;
+    }
+    .section1_box3 .semen2 {
+    margin: 3vw 0.5vw 4vw 0;
 }
-}    .funel1 p, .funel2 p, .funel3 p {
-    font-size: 2.6vw;
-}
-.funel1 p , .funel2 p{
- 
-    padding-top: 1.2vw;
-    margin: 2vw 0 1.5vw;
-}
-.funel3 p {
-  
-    padding-top: 4.5vw;
-}
+
+    .funel1 p,
+    .funel2 p,
+    .funel3 p {
+        font-size: 2.6vw;
+    }
+
+    .funel1 p,
+    .funel2 p {
+
+        padding-top: 1.2vw;
+        margin: 2vw 0 1.5vw;
+    }
+
+    .funel3 p {
+
+        padding-top: 4.5vw;
+    }
 
 }
