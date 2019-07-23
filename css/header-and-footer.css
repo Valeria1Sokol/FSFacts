@@ -290,6 +290,8 @@ body {
     @media screen and (max-width: 1188px) {
         header {
             justify-content: flex-end;
+            
+    border-top: 1px solid black;
         }
 
         .logo {
