@@ -3,12 +3,10 @@
     function toggleBar(id) {
         let dropdown = $(`#${id}`);
         let dropdownImg = $(`#${id}i`);
-        console.log(dropdown.attr('id'));
-        console.log(dropdownImg.attr('id'));
-        console.log(dropdown.css("display"));
+        
         if (dropdown.css("display") == "none") {
             dropdown.css({"display": "flex"});
-            console.log(dropdown.css("display"));
+         
             if (dropdownImg) {
                 dropdownImg.css({"display": "none"});
             }
