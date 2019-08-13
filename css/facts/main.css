@@ -98,10 +98,10 @@ body {
 
 @media all and (max-width:768px) {
 
-.chemistry-facts {
+    .chemistry-facts {
 
-    margin-top: -3vw!important;
-}
+        margin-top: -3vw !important;
+    }
 
     .table-section {
         position: relative;
@@ -270,10 +270,10 @@ body {
     }
 
     .chemistry-facts .text-box {
-        font-family: 'Open Sans';
-        font-size: 2.6vw;
+        font-family: 'Open Sans bold';
+        font-size: 2.8vw;
         font-weight: 700;
-        color: rgb(115, 115, 115);
+        color: black;
         text-align: center;
 
         width: 100%;
@@ -291,11 +291,11 @@ body {
         background-image: url(../../img/facts/section_img_2.png);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 30.4vw;
-        height: 19.5vw;
+        width: 37.4vw;
+        height: 24vw;
         position: absolute;
-        left: 11vw;
-        margin-top: -10vw;
+        left: 6vw;
+        margin-top: -11vw;
         z-index: 3;
     }
 
@@ -313,56 +313,58 @@ body {
 }
 
 @media all and (max-width:425px) {
-.chemistry-facts {
-    margin-top: 3vw!important;
-}
-.table-text {
-    
-    margin-top: 2vw;
-}
+    .chemistry-facts {
+        margin-top: 3vw !important;
+    }
+
+    .table-text {
+
+        margin-top: 2vw;
+    }
+
     .ph1 {
-     
+
         top: 0.2vw;
     }
 
- 
+
     .ph2 {
-      
+
         top: 0.2vw;
     }
 
     .img-3 {
-      
+
         top: 0.6vw;
     }
 
     .img-4 {
-      
+
         top: 0.6vw;
     }
 
     .img-5 {
-      
+
         top: 0.5vw;
     }
 
     .img-6 {
-     
+
         top: 0.5vw;
     }
 
     .img-7 {
-      
+
         top: 0.4vw;
     }
 
     .img-8 {
-    
+
         top: 0.4vw;
     }
 
     .img-9 {
-      
+
         top: 0.1vw;
     }
 
@@ -402,35 +404,38 @@ body {
     }
 
 }
+
 @media all and (max-width:414px) {
-.table-text {
-    margin-top: 0vw;
-}
-.img-5 {
-    top: 0.2vw;
-}
+    .table-text {
+        margin-top: 0vw;
+    }
+
+    .img-5 {
+        top: 0.2vw;
+    }
+
     .img-6 {
-    top: 0.2vw;
-}
+        top: 0.2vw;
+    }
 
     .img-7 {
-      
+
         top: -0.4vw;
     }
 
     .img-8 {
-    
+
         top: -0.4vw;
     }
 
     .img-9 {
-      
+
         top: -0.7vw;
     }
 
     .img-10 {
 
-        top:-0.7vw;
+        top: -0.7vw;
     }
 
     .img-11 {
@@ -464,60 +469,62 @@ body {
     }
 
 }
+
 @media all and (max-width:375px) {
 
-.chemistry-facts {
-    margin-top: 4vw!important;
-}
+    .chemistry-facts {
+        margin-top: 4vw !important;
+    }
+
     .ph1 {
-     
+
         top: 0;
     }
 
- 
+
     .ph2 {
-      
+
         top: 0;
     }
 
     .img-3 {
-      
+
         top: 0.6vw;
     }
 
     .img-4 {
-      
+
         top: 0.6vw;
     }
 
     .img-5 {
-      
+
         top: 0.2vw;
     }
 
     .img-6 {
-     
+
         top: 0.2vw;
     }
 
     .img-7 {
-      
+
         top: -0.2vw;
     }
 
     .img-8 {
-    
+
         top: -0.2vw;
     }
 
     .img-9 {
-      
+
         top: -0.5vw;
     }
 
     .img-10 {
 
-        top:-0.5vw;
+        top: -0.5vw;
     }
 
     .img-11 {
@@ -551,56 +558,59 @@ body {
     }
 
 }
+
 @media all and (max-width:320px) {
     .chemistry-facts {
-    margin-top: 7vw!important;
-}
-.table-text {
-    margin-top: -3vw;
-}
-.table-animation {
-    margin-top: -71vw;
-}
-   
+        margin-top: 7vw !important;
+    }
+
+    .table-text {
+        margin-top: -3vw;
+    }
+
+    .table-animation {
+        margin-top: -71vw;
+    }
+
 
     .img-3 {
-      
+
         top: 0.3vw;
     }
 
     .img-4 {
-      
+
         top: 0.3vw;
     }
 
     .img-5 {
-      
+
         top: -0.5vw;
     }
 
     .img-6 {
-     
+
         top: -0.5vw;
     }
 
     .img-7 {
-      
+
         top: -1.2vw;
     }
 
     .img-8 {
-    
+
         top: -1.2vw;
     }
 
     .img-9 {
-      
+
         top: -1.8vw;
     }
 
     .img-10 {
 
-        top:-1.8vw;
+        top: -1.8vw;
     }
 
     .img-11 {
