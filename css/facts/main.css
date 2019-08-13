@@ -113,7 +113,7 @@ body {
     }
 
     .table-animation {
-        margin-top: -70vw;
+        margin-top: -77vw;
         margin-left: 45vw;
         z-index: 999;
     }
@@ -193,35 +193,35 @@ body {
         animation-delay: 9s !important;
         opacity: 0;
         position: relative;
-        top: 1.7vw;
+        top: 1.4vw;
     }
 
     .img-10 {
         animation-delay: 10s !important;
         opacity: 0;
         position: relative;
-        top: 1.7vw;
+        top: 1.4vw;
     }
 
     .img-11 {
         animation-delay: 11s !important;
         opacity: 0;
         position: relative;
-        top: 1.5vw;
+        top: 1.4vw;
     }
 
     .img-12 {
         animation-delay: 12s !important;
         opacity: 0;
         position: relative;
-        top: 1.5vw;
+        top: 1.4vw;
     }
 
     .img-13 {
         animation-delay: 13s !important;
         opacity: 0;
         position: relative;
-        top: 2vw;
+        top: 1.5vw;
     }
 
     .img-14 {
@@ -229,7 +229,7 @@ body {
         opacity: 0;
         position: relative;
 
-        top: 2vw;
+        top: 1.5vw;
     }
 
     .img-15 {
@@ -237,7 +237,7 @@ body {
         opacity: 0;
         position: relative;
         left: -3.3vw;
-        top: 1.5vw;
+        top: 1.3vw;
         width: 12vw !important;
         height: 4vw !important;
 
@@ -248,7 +248,7 @@ body {
         opacity: 0;
         position: relative;
         left: -3.3vw;
-        top: 1.5vw;
+        top: 1.3vw;
         width: 12vw !important;
         height: 4vw !important;
 
@@ -271,7 +271,7 @@ body {
 
     .chemistry-facts .text-box {
         font-family: 'Open Sans bold';
-        font-size: 2.8vw;
+        font-size: 2.7vw;
         font-weight: 700;
         color: black;
         text-align: center;
@@ -310,6 +310,24 @@ body {
         width: 5vw;
         height: 5vw;
     }
+    .table-section tr  p
+    {
+         font-family: 'Open Sans bold';
+        font-size: 2.7vw;
+        font-weight: 700;
+        color: black;
+           text-align: left;
+    
+    }
+    .semTable
+    {
+        margin: 0.8vw 0 -0.6vw -1.6vw;
+    }
+     .facTable
+    {
+       
+    margin: 0.8vw 0 -0.6vw -4.6vw;
+    }
 }
 
 @media all and (max-width:425px) {
@@ -335,73 +353,79 @@ body {
 
     .img-3 {
 
-        top: 0.6vw;
+        top: 1.2vw;
     }
 
     .img-4 {
 
-        top: 0.6vw;
+        top: 1.2vw;
     }
 
     .img-5 {
 
-        top: 0.5vw;
+        top: 1vw;
     }
 
     .img-6 {
 
-        top: 0.5vw;
+        top: 1vw;
     }
 
     .img-7 {
 
-        top: 0.4vw;
+        top: 0.9vw;
     }
 
     .img-8 {
 
-        top: 0.4vw;
+        top: 0.9vw;
     }
 
     .img-9 {
 
-        top: 0.1vw;
+        top: 0.5vw;
     }
 
     .img-10 {
 
-        top: 0.1vw;
+        top: 0.5vw;
     }
 
     .img-11 {
 
-        top: -0.1vw;
+        top: 0.4vw;
     }
 
     .img-12 {
 
-        top: -0.1vw;
+        top: 0.4vw;
     }
 
     .img-13 {
 
-        top: -0.3vw;
+        top: -0vw;
     }
 
     .img-14 {
 
 
-        top: -0.3vw;
+        top: -0vw;
     }
 
     .img-15 {
-        top: -0.5vw;
+        top: -0.2vw;
     }
 
     .img-16 {
 
-        top: -0.5vw;
+        top: -0.2vw;
     }
+    .table-animation {
+    margin-top: -78vw;
+}
+    .facTable {
+    margin: 0.8vw 0 -0.6vw -5.6vw;
+}
 
 }
 
@@ -409,6 +433,12 @@ body {
     .table-text {
         margin-top: 0vw;
     }
+    .img-3 {
+    top: 0.6vw;
+}
+    .img-4 {
+    top: 0.6vw;
+}
 
     .img-5 {
         top: 0.2vw;
@@ -420,22 +450,22 @@ body {
 
     .img-7 {
 
-        top: -0.4vw;
+        top: -0.2vw;
     }
 
     .img-8 {
 
-        top: -0.4vw;
+        top: -0.2vw;
     }
 
     .img-9 {
 
-        top: -0.7vw;
+        top: -0.5vw;
     }
 
     .img-10 {
 
-        top: -0.7vw;
+        top: -0.5vw;
     }
 
     .img-11 {
@@ -450,27 +480,30 @@ body {
 
     .img-13 {
 
-        top: -1.6vw;
+        top: -1.4vw;
     }
 
     .img-14 {
 
 
-        top: -1.6vw;
+        top: -1.4vw;
     }
 
     .img-15 {
-        top: -2.4vw;
+        top: -2.1vw;
     }
 
     .img-16 {
 
-        top: -2.4vw;
+        top: -2.1vw;
     }
 
 }
 
 @media all and (max-width:375px) {
+    .facTable {
+    margin: 0.8vw 0 -0.6vw -5.4vw;
+}
 
     .chemistry-facts {
         margin-top: 4vw !important;
@@ -568,79 +601,87 @@ body {
         margin-top: -3vw;
     }
 
-    .table-animation {
-        margin-top: -71vw;
-    }
+ .semTable {
+    margin: 0.8vw 0 -0.6vw -2.1vw;
+}
+    .facTable {
+    margin: 0.8vw 0 -0.6vw -5.8vw;
+}
 
-
+.ph1 {
+    top: -0.8vw;
+}
+    .ph2 {
+    top: -0.8vw;
+}
     .img-3 {
 
-        top: 0.3vw;
+        top: -0.5vw;
     }
 
     .img-4 {
 
-        top: 0.3vw;
+        top: -0.5vw;
     }
 
     .img-5 {
 
-        top: -0.5vw;
+        top: -1.3vw;
     }
 
     .img-6 {
 
-        top: -0.5vw;
+        top: -1.3vw;
     }
 
     .img-7 {
 
-        top: -1.2vw;
+        top: -2vw;
     }
 
     .img-8 {
 
-        top: -1.2vw;
+        top: -2vw;
     }
 
     .img-9 {
 
-        top: -1.8vw;
+        top: -2.8vw;
     }
 
     .img-10 {
 
-        top: -1.8vw;
+        top: -2.8vw;
     }
 
     .img-11 {
 
-        top: -3vw;
+        top: -3.8vw;
     }
 
     .img-12 {
 
-        top: -3vw;
+        top: -3.8vw;
     }
 
     .img-13 {
 
-        top: -3.8vw;
+        top: -4.4vw;
     }
 
     .img-14 {
 
 
-        top: -3.8vw;
+        top: -4.4vw;
     }
 
     .img-15 {
-        top: -5vw;
+        top: -6vw;
     }
 
     .img-16 {
 
-        top: -5vw;
+        top: -6vw;
     }
 
 }

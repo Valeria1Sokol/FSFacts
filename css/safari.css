@@ -80,7 +80,14 @@
     .sec3Mob .section3BoxCircle p {
         letter-spacing: -1px;
     }
+   
+    .chemistry-facts .text-box , .table-section tr  p
+    {
+        letter-spacing: -1px;
+    }
+    
 }
+ 
 
 @media screen and (min-width: 800px) {
     .section-facts-2 .chemistry-facts .details-chemistry-facts .section-2-title img {
@@ -137,6 +144,9 @@
         margin: 3vw 0.5vw 4vw 0;
          !important;
     }
+        .table-animation {
+    margin-top: -78.5vw!important;
+}
 }
 
 @media all and (max-width:375px) {
