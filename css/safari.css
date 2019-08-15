@@ -1,32 +1,4 @@
-/* .elements {
-    position: relative;
-    height: 320px;
-    width: 320px;
-    display: flex;
-    border-radius: 50%;
-    -webkit-transform: translate(0, 5%);
-    transform: translate(0, 5%);
-    background-color: #e9fef0;
-    align-items: center;
-    justify-content: center;
-    bottom: -20px;
-    z-index: 1;
-}
 
-.facial-sheet-on-board-img {
-    position: absolute;
-    background-image: url("../img/facial_sheet.png");
-    background-repeat: no-repeat;
-    background-position-x: -3px;
-    background-size: 104%;
-    transform: translate(160px, -160px);
-    width: 178px;
-    height: 225px;
-    z-index: 10;
-    -webkit-box-shadow: 0px 50px 99px -15px rgba(0, 0, 0, 0.24);
-    -moz-box-shadow: 0px 50px 99px -15px rgba(0, 0, 0, 0.24);
-    box-shadow: 0px 50px 99px -15px rgba(0, 0, 0, 0.24);
-} */
 
 .elements {
     position: relative;
@@ -146,6 +118,45 @@
     }
         .table-animation {
     margin-top: -78.5vw!important;
+}
+      .img-3 , .img-4{
+    top: -0.4vw!important;
+}
+
+.img-5 , .img-6{
+
+    top: -0.8vw!important;
+}
+   
+
+    .img-7 , .img-8{
+
+        top: -1.3vw!important;
+    }
+
+
+
+    .img-9, .img-10 {
+
+        top: -1.6vw!important;
+    }
+
+    .img-11 , .img-12{
+
+        top: -1.8vw!important;
+    }
+
+    .img-13 , .img-14{
+
+        top: -2.5vw!important;
+    }
+
+
+    .img-15, .img-16 {
+        top: -3.1vw!important;
+    }
+    .section1_box3 .facesemen2 {
+    margin: 2.7vw 0 3.4vw -0.6vw!important;
 }
 }
 
